@@ -1,0 +1,585 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle, #001d4a, #000);
+}
+
+/* Navbar-menu css start */
+
+.navbar-menu a {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-menu ul li a {
+  font-size: 16px;
+  color: #ffffff !important;
+  transition: all linear 0.3s;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-menu ul li a:hover {
+  color: rgb(135, 80, 247) !important;
+}
+
+/* navbar-menu css end */
+
+/* banner css part start */
+
+#banner {
+  padding: 60px 0;
+}
+
+.banner-left-side {
+  padding: 140px 0;
+  
+}
+
+.banner-left-side h4 {
+  font-size: 36px;
+  color: #dddddd;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.banner-left-side h1 {
+  color: #e0d2fd;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  max-width: 550px;
+  padding-bottom: 10px;
+}
+
+.banner-left-side p {
+  color: #dddddd;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 40px;
+  max-width: 520px;
+}
+
+.banner-icon ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 40px 0;
+}
+
+.banner-icon ul li a {
+  font-size: 16px;
+  color: #ffffff !important;
+  transition: all linear 0.3s;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner-icon ul li a:hover {
+  color: rgb(135, 80, 247) !important;
+}
+
+.banner-left-side button{
+  width: 100px;
+}
+
+/* banner css part end */
+
+/* about css part start */
+
+#about {
+  padding: 60px 0;
+}
+
+.about-right-side {
+  padding: 55px 0;
+}
+
+.about-right-side h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.about-right-side p {
+  color: #dddddd;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.about-progress-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-progress-bar h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #dddddd;
+}
+
+/* About css part end */
+
+/* service css part start */
+#service {
+  padding: 60px 0;
+}
+.service-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-head h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.service-head p {
+  color: #dddddd;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  max-width: 550px;
+}
+
+.service-card {
+  display: flex;
+  padding-top: 40px;
+  gap: 20px;
+}
+
+.service-card .card {
+  width: 25%;
+}
+
+.service-card .card h5 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.service-card .card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.service-card .card-body {
+  transition: 0.3s;
+}
+
+.service-card .card-body:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  border-radius: 5px;
+}
+
+.service-card .card-body img {
+  padding-bottom: 20px;
+}
+
+/* service css part end */
+
+/* my projects css part  start */
+
+#myProjects {
+  padding: 60px 0;
+}
+.myProjects-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.myProjects-head h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.myProjects-head p {
+  color: #dddddd;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  max-width: 550px;
+}
+
+.myProjectsBtn {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+.projectsCard {
+  display: flex;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.projectsCard .card {
+  width: 33%;
+}
+
+/* myProjects css part end */
+
+/* testimonial css part start */
+
+#testimonial {
+  padding: 60px 0;
+}
+.testimonial-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-head h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.testimonial-head p {
+  color: #dddddd;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  max-width: 550px;
+  padding-bottom: 40px;
+}
+
+/* testimonial css part end */
+
+/* contact css part start */
+#contact {
+  padding: 60px 0;
+}
+
+.contact-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-head h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.contact-head p {
+  color: #dddddd;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  max-width: 550px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* contact css part end */
+
+/* footer css part start */
+#footer {
+  padding-top: 60px;
+}
+
+#footer h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-nav ul li a {
+  font-size: 16px;
+  color: #ffffff !important;
+  transition: all linear 0.3s;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-nav ul li a:hover {
+  color: rgb(135, 80, 247) !important;
+}
+
+.footer-icon ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 40px 0;
+}
+
+.footer-icon ul li a {
+  font-size: 16px;
+  color: #ffffff !important;
+  transition: all linear 0.3s;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-icon ul li a:hover {
+  color: rgb(135, 80, 247) !important;
+}
+
+.copyright p {
+  color: #ffffff;
+  padding: 20px 0;
+  background-color: #001d4a;
+}
+
+/* footer css part end */
+
+/* Responsive part */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /* banner part responsive start  */
+  .banner-left-side {
+    padding: 0;
+  }
+
+  .about-right-side h4 {
+    font-size: 24px;
+  }
+
+  .banner-left-side h1 {
+    font-size: 36px;
+    max-width: 400px;
+  }
+
+  .banner-left-side p {
+    font-size: 15px;
+  }
+
+  /* banner part responsive end */
+  /* about part responsive start */
+  .about-right-side h1 {
+    font-size: 42px;
+  }
+  /* about part responsive end */
+  /* service part responsive start */
+
+  .service-head h1 {
+    font-size: 42px;
+   
+  }
+
+  .service-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-card .card {
+    width: 100%;
+  }
+  /* service part responsive start end*/
+
+  /* my projects part responsive start */
+  .myProjects-head h1 {
+    font-size: 42px;
+  }
+
+  .myProjectsBtn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+  }
+
+  .projectsCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projectsCard .card {
+    width: 100%;
+  }
+  /* My Projects part responsive end */
+  /* testimonial part responsive start */
+  .testimonial-head h1 {
+    font-size: 42px;
+  }
+  /* testimonial part responsive end */
+  /* contact part responsive start */
+  .contact-head h1 {
+    font-size: 42px;
+  }
+  /* contact part responsive end */
+  /* footer part responsive start */
+  #footer h1 {
+    font-size: 42px;
+  }
+  .footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  /* footer part responsive end */
+
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  /* banner part responsive start  */
+  .banner-left-side {
+    text-align: center;
+   
+  }
+
+  .banner-left-side h1 {
+    font-size: 42px;
+    max-width: 880px;
+  }
+
+  .banner-left-side p {
+    max-width: 1000px;
+  }
+  
+  .banner-left-side button{
+    text-align: center
+  }
+
+
+  /* banner part responsive start end  */
+ 
+  /* service part responsive start  */
+
+  .service-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .service-card .card {
+    width: 48%;
+  }
+
+  /* service part responsive start end */
+
+  /* my projects part responsive start */
+  .myProjects-head h1 {
+    font-size: 42px;
+  }
+
+  .myProjectsBtn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+  }
+
+  .projectsCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projectsCard .card {
+    width: 100%;
+  }
+
+  /* My responsive part end */
+   /* footer part responsive start */
+   .footer-nav ul {
+    gap: 12px;
+  }
+
+  /* footer part responsive end */
+
+}
+
+
+
+@media(min-width:992px) and (max-width:1199.98px){
+  /* banner part responsive start */
+
+  .banner-left-side {
+    padding:100px 0;
+  }
+
+  .banner-right-side{
+    padding-top:40px;
+  }
+  /* banner part responsive end */
+  /* about part responsive start */
+  .about-right-side {
+    padding: 21px 0;
+  }
+
+  .about-image{
+   padding:80px 0;
+  }
+  
+}
